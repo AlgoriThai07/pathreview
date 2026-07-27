@@ -17,14 +17,13 @@ When parsing resumes, the section header detection logic in `ResumeParser` (`ing
 
 ## Week 8 — Reproduction & solution planning
 
-**Reproduction commit link:** [link to commit documenting the reproduced issue]
+**Reproduction commit link:** [\[link to commit documenting the reproduced issue\]](https://github.com/ascherj/pathreview/commit/79fa96fd168ebfdcaf993f494a968d81d69f186e)
 
 **Reproduction summary:**
+I reproduced the issue by running the unit tests (specifically `test_detect_sections_with_leading_whitespace`). I observed that 6 unit tests failed because both the section header detection and markdown header stripping regexes strictly anchored matches to the absolute beginning of a line without permitting leading indentation (whitespace/tabs).
 
+**PLAN.md link:** [\[link to PLAN.md in your fork\]](https://github.com/AlgoriThai07/pathreview/blob/fix/147-resume-fails-leading-whitespace/PLAN.md)
 
-**PLAN.md link:** [link to PLAN.md in your fork]
-
-**Walkthrough video (recommended):** [link to your Loom video, ≤2 min — recommended, not graded]
+**Walkthrough video (recommended):**
 
 **Blockers or open questions:**
-[Anything you're still uncertain about going into Week 9, or leave blank]
