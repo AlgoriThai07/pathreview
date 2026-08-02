@@ -131,8 +131,8 @@ class ResumeParser(BaseParser):
         for section in SECTION_HEADERS:
             # Look for section header patterns (allowing leading indentation)
             patterns = [
-                rf"^[ \t]*{re.escape(section)}\s*$",
                 rf"^[ \t]*{re.escape(section)}\s*[:|-]",
+                rf"^[ \t]*{re.escape(section)}\s*$",
             ]
 
             for pattern in patterns:
