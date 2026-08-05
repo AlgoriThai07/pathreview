@@ -58,3 +58,37 @@ The tests added or updated are in `tests/unit/test_resume_parser.py`.
 **Self-review confirmation:** [X] make check passes [X] make test-unit passes
 
 **Draft PR feedback received from:** none
+
+## Week 10 — Iteration & reflection
+
+### Reviewer feedback
+
+**Feedback received:** [ ] Yes  [X] No — still awaiting review
+
+**Summary of feedback:**
+Reviewer feedback is not a feature in Summer 2026.
+
+**How you responded:**
+
+
+---
+
+### Reflection
+
+**What was harder than you expected?**
+I would say navigating through the codebase to find the actual file that is causing the bug is harder than I expected. I had to spend a lot of time just looking through files and trying to understand how the code works. I got to run `make test-unit` and `make test-integration` commands to help me identify the issue.
+
+**What did you learn about working in a large codebase?**
+I learned that working in a large codebase is not as intimidating as it seems. It's all about breaking down the problem into smaller pieces and taking it one step at a time. It's also important to remember that there are a lot of resources available to help you, such as the documentation and the community.
+
+**What's different about contributing to someone else's production code**
+I think the difference is that when I am building my own project. I could understand the code and how it works. However, with someone else's project, I had to spend a lot of time just looking through files and trying to understand how the code works and what the workflow is.
+
+**How did AI tools help — and where did they fall short?**
+I think AI tools help me a lot when it comes to understanding the codebase and how the code works. But it's not always accurate, so I had to double check everything. I think it falls short when it comes to understanding the big picture and the overall workflow of the project.
+
+**What would you do differently if you started over?**
+I would start by reading the documentation and understanding the codebase and the overall workflow of the project before jumping into the code. It's also important to remember that there are a lot of resources available to help you, such as the documentation and the community.
+
+**What are you most proud of from this module?**
+I am most proud of the fact that I was able to contribute to an open source project and that I was able to learn a lot about working in a large codebase. It's also rewarding to know that my code will help others use PathReview more effectively.
